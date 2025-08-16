@@ -17,6 +17,9 @@ export default function NavbarAutumn() {
           <NavLink to="/" end className={({isActive}) => 'nav-link' + (isActive ? ' active' : '')}>
             <i className="bi bi-house"></i> Home
           </NavLink>
+          <NavLink to="/about" className={({isActive}) => 'nav-link' + (isActive ? ' active' : '')}>
+            <i className="bi bi-person"></i> About
+          </NavLink>
           <NavLink to="/portfolio" className={({isActive}) => 'nav-link' + (isActive ? ' active' : '')}>
             <i className="bi bi-briefcase"></i> Portfolio
           </NavLink>
