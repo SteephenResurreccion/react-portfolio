@@ -12,7 +12,13 @@ export default function Home() {
   };
 
   return (
-    <main className={"home-hero d-flex align-items-center justify-content-center text-center" + (exiting ? " page-blur" : "")}>
+    <main
+      className={"home-hero d-flex align-items-center justify-content-center text-center" + (exiting ? " page-blur" : "")}
+      style={{
+        background:
+          "linear-gradient(rgba(30,18,10,0.55), rgba(30,18,10,0.55)), url('/autumnbackground.avif') center / cover no-repeat fixed"
+      }}
+    >
       <div className="home-glass p-4 p-md-5">
         <h1 className="display-5 fw-bold text-white mb-3">Welcome to my Portfolio</h1>
         <p className="lead text-white-50 mb-4">Steephen L. Resurreccion. of C3A.</p>

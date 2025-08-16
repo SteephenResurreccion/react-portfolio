@@ -1,5 +1,5 @@
 import React from "react";
-import Dogg from "../Dogg.png";
+
 
 export default function About() {
   return (
@@ -17,7 +17,7 @@ export default function About() {
         {/* Intro */}
         <div className="row align-items-center g-4 mb-5">
           <div className="col-md-4 d-flex justify-content-center">
-            <img src={Dogg} 
+                <img src={`${process.env.PUBLIC_URL}/Dogg.png`} 
             alt="Steephen avatar" 
             className="about-avatar" 
             style={{ width: "100%", height: "auto" }}/>
